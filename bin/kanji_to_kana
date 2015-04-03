@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+$:.unshift File.join(File.dirname(__FILE__), *%w[.. lib])
+
+require "kanji_to_kana"
+
+kana = KanjiToKana.convert(ARGV[0])
+puts kana
