@@ -1,6 +1,6 @@
 # KanjiToKana
 
-TODO: Write a gem description
+漢字の単語をひらがなに変換するツール、データはウィキペディアから取ってくる。
 
 ## Installation
 
@@ -20,12 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Console:
 
-## Contributing
+    $ kanji_to_kana 梶浦由記
+    かじうら ゆき
 
-1. Fork it ( https://github.com/[my-github-username]/kanji_to_kana/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+Ruby:
+
+    KanjiToKana.convert('澤野弘之')
+    # => さわの ひろゆき
