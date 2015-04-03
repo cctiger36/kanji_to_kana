@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = KanjiToKana::VERSION
   spec.authors       = ["weihu_chen"]
   spec.email         = ["cctiger36@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{漢字の単語をひらがなに変換するツール}
+  spec.description   = %q{漢字の単語をひらがなに変換するツール、データはウィキペディアから取ってくる。}
+  spec.homepage      = "https://github.com/cctiger36/kanji_to_kana"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
